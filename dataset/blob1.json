@@ -1,0 +1,18 @@
+{
+	"name": "blob1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "blob LS1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "container1"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
